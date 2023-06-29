@@ -1,0 +1,49 @@
+* {margin: 0px; /*borramos margenes y rellenos */
+padding: 0px;} 
+
+#container 
+{			width: 800px;/*modificamos el ancho del contenedor*/
+			margin: auto;/*centramos contenedor*/
+		}
+#header {height: 150px;/*modificamos el alto del encabezado*/
+		}/*ponemos el color del fondo del encabezado*/
+
+#logoescuela { width: 300px; height: 150px;/*elegimos el tamaño del logo de la escuela*/
+float: left; background-color: pink;}/*hacemos flotar la caja del logo a la izquierda*/
+#TITULO {width: 200px; height: 150px; float: left ;/*modificamos el tamaño, color y posicion del titulo*/
+font-size: 25px;
+text-align: center;}
+#logodelvivero {width: 300px; height: 150px; float: left;background-color: red; padding: auto; } 
+#nav {height: 50px;
+	background-color: #2ECC71 ;
+		}
+h1{
+	text-align: center;
+}
+		
+#asideIzq{width: 400px;
+		background-color: #2ECC71 ;
+		height: 570px;
+		float: left;
+	
+		}
+
+#asideDer{width: 400px;
+		background-color: #2ECC71 ;
+		height: 570px;
+		float: right; 
+		
+	
+		}
+
+#sectionTop{height: 283px;
+			width: 400px;
+					}
+#sectionBottom{height: 283px;
+			width: 400px;
+			}
+
+			#footer {
+		clear: both;
+		background-color: green;
+		height: 250px;}

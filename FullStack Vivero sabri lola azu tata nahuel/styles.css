@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Ethnocentric";
+    src: url("../fonts/ethnocentric/ethnocentric rg.ttf") format("ttf");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Ethnocentric";
+    src: url("../fonts/ethnocentric/ethnocentric rg it.ttf") format("ttf");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "poppins";
+    src: url("../fonts/ethnocentric/Poppins-Regular.ttf") format("ttf");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "poppins";
+    src: url("../fonts/ethnocentric/Poppins-Bold.ttf") format("ttf");
+    font-weight: bold;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: "Ethnocentric";
+  }
+  
+  body {
+    font-family: "poppins", sans-serif;
+    color: #101010;
+  }
+
+  /*header section*/
+.header_section .container-fluid {
+  padding-right: 25px;
+  padding-left: 25px;
+  background-image: url(img/fondo1.jpg);
+  height: 150px;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 30px;
+  color: #1e5726;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  color: #1e5726;
+}
+
+.custom_nav-container .nav_search-btn {
+  background-image: url(../images/search-icon.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+}
+
+.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  align-items: center;
+  margin-right: 0;
+}
+
+.navbar-brand img {
+  width: 45px;
+}
+
+.navbar-brand span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffff;
+  font-family: "Ethnocentric";
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 15px 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../images/menu.png);
+  background-size: 35px;
+}
+
+.custom_heading {
+  position: relative;
+}
+
+/*product section*/
+  .product_section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .product_section .img-box {
+    margin: 1%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .product_section .img-box.box-2, .product_section .img-box.box-4 {
+    width: 53%;
+  }
+  
+  
+  
+  
+  .product_section a {
+    display: inline-block;
+    padding: 14px 35px;
+    background-color: transparent;
+    border: 1.5px solid #1e5726;
+    color: #1e5726;
+    color: #1e5726;
+  }
+  
+  .product_section a:hover {
+    background-color: #1e5726;
+    color: #ffffff;
+  }
+  /*hero section*/
+  .hero_section {
+    text-align: center;
+    color: #1c5a1f9d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 75%;
+  }
+  
+  .hero_section h1 {
+    font-size: 85px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+/*footer*/
+.footer_section {
+  background-color: #ffffff;
+  padding: 20px;
+  font-weight: 500;
+}
+
+.footer_section p {
+  color: #292929;
+  margin: 0;
+  text-align: center;
+}
+
+.footer_section a {
+  color: #292929;
+}
+  
