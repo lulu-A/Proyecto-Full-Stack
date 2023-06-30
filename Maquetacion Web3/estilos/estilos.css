@@ -107,3 +107,7 @@ clear: both;}
 		  font-size:20px;
 		  font-weight: 700;
 		  color: white;}
+
+table td {
+ padding-right: 400px;
+}
